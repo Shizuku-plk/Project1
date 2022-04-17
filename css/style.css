@@ -19,8 +19,20 @@
     position: fixed;
     /*msc*/
     z-index: 1;
-    background-color: hsl(185, 43%, 18%);
+    /*background-color: hsl(185, 43%, 18%);*/
     opacity: 0.9;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.7s;
+}
+
+.side-nav a {
+    /*display*/
+    display: block;
+    /*box model*/
+    padding: 1em 1em 1em 3em;
+    /*typography*/
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: hsl(0, 0%, 100%);
+    transition: 0.3s;
 }
