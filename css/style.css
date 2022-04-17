@@ -4,7 +4,20 @@
     color: hsl(0, 0%, 100%);
 }
 
-.main-nav i {
+.main-nav .header-name {
+    /*display*/
+    display: flex;
+    justify-content: flex-end;
+    /*box model*/
+    padding: 1em;
+}
+
+.main-nav .header-name i {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.4rem;
+}
+
+.main-nav .open-slide i {
     /*box model*/
     padding: 0.5em;
     /*msc*/
@@ -43,4 +56,8 @@
     /*typography*/
     font-size: 2.5em;
     font-weight: bold;
+}
+
+#main {
+    text-align: center;
 }
