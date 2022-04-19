@@ -35,6 +35,7 @@
     /*typography*/
     text-decoration: none;
     font-size: 1.3rem;
+    font-family: 'Montserrat', serif;
     font-weight: bold;
 }
 
@@ -79,4 +80,26 @@
     /*typography*/
     font-size: 2em;
     font-weight: bold;
+}
+
+.page-1 {
+    /*box model*/
+    margin-top: 4em;
+    /*typography*/
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    /*msc*/
+    transition: margin-left 0.5s;
+}
+
+.page-1 h3 {
+    color: hsl(0, 0%, 60%);
+}
+
+.page-1 h4 {
+    color: hsl(0, 0%, 85%);
+}
+
+.page-1 i {
+    color: hsl(0, 0%, 100%);
 }
