@@ -1,0 +1,77 @@
+.hamburger-menu {
+    overflow: hidden;
+    padding: 0.5em;
+}
+
+.hamburger-menu .open-slide a {
+    /*positioning*/
+    float: left;
+    display: block;
+}
+
+.nav-bar ul {
+    /*display*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.nav-bar i {
+    /*typography*/
+    font-size: 1.3rem;
+}
+
+.nav-bar a {
+    /*typography*/
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+}
+
+.side-nav {
+    /*positioning*/
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    /*box model*/
+    padding-top: 4em;
+    /*msc*/
+    z-index: 1;
+    background-color: hsl(183, 42%, 9%);
+    opacity: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.side-nav a {
+    /*display*/
+    display: block;
+    /*box model*/
+    padding: 1em 1em 1em 2em;
+    /*typography*/
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    /*msc*/
+    transition: 0.3s;
+    background-color: hsl(183, 42%, 9%);
+    opacity: 0.9;
+}
+
+.side-nav .btn-close {
+    /*positioning*/
+    position: absolute;
+    top: 0;
+    right: 0.3em;
+    /*typography*/
+    font-size: 2em;
+    font-weight: bold;
+}
