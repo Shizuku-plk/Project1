@@ -5,6 +5,9 @@
 }
 
 .page-1 {
+    /*display*/
+    display: grid;
+    place-content: center;
     /*box model*/
     margin-top: 4em;
     /*typography*/
@@ -36,4 +39,19 @@
 .profile-icons i {
     /*typography*/
     font-size: 1.6rem;
+}
+
+.project-btn {
+    /*box model*/
+    padding: 1em;
+    /*msc*/
+    border: 1px solid hsl(0, 0%, 85%);
+}
+
+.project-btn a {
+    /*typography*/
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
 }
