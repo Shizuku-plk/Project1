@@ -8,8 +8,8 @@
     /*display*/
     display: grid;
     place-content: center;
-    /*box model*/
-    margin-top: 4em;
+    /*positioning*/
+    min-height: 50vh;
     /*typography*/
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -36,6 +36,11 @@
     padding: 1em;
 }
 
+.profile-icons a {
+    padding: 0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
 .profile-icons i {
     /*typography*/
     font-size: 1.6rem;
@@ -54,4 +59,52 @@
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.page-2 {
+    /*display*/
+    display: grid;
+    place-content: center;
+    /*positioning*/
+    min-height: 50vh;
+    /*typography*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-2 h1 {
+    font-size: 2.5rem;
+}
+
+.css-cards {
+    /*display*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /*box model*/
+    margin-top: 2em;
+}
+
+.css-cards i {
+    /*typography*/
+    font-size: 5rem;
+    color: hsl(0, 0%, 90%);
+}
+
+.css-cards > * + * {
+    margin: 1.5em 0 0 0;
+}
+
+.card {
+    padding: .5em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+@media (min-width: 1180px) {
+    .css-cards {
+        flex-direction: row;
+    }
+
+    .css-cards > * + * {
+        margin: 0 0 0 1.5em;
+    }
 }
