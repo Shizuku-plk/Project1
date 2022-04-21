@@ -4,6 +4,10 @@
     color: hsl(0, 0%, 100%);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .page-1 {
     /*display*/
     display: grid;
@@ -61,7 +65,7 @@
     text-transform: uppercase;
 }
 
-.page-2, .page-3 {
+.page-2, .page-3, .page-4 {
     /*display*/
     display: grid;
     place-content: center;
@@ -71,11 +75,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.page-3 {
+.page-3, .page-4 {
     margin-top: 3em;
 }
 
-.page-2 h1, .page-3 h1 {
+.page-2 h1, .page-3 h1, .page-4 h1 {
     font-size: 2.5rem;
     text-align: center;
 }

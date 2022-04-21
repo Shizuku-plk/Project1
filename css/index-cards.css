@@ -1,4 +1,4 @@
-.css-cards, .skill-cards {
+.css-cards, .skill-cards, .projects-cards {
     /*display*/
     display: flex;
     align-items: center;
@@ -21,13 +21,40 @@
     margin: 1.5em 0 0 0;
 }
 
-.card, .s-card {
+.project-cards > * + * {
+    margin: 1.5em 0 0 0;
+}
+
+.card, .s-card, .p-card {
     padding: 1em;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+.page-4 img {
+    width: 200px;
+    height: 400px;
+}
+
+.page-4 .project-cards {
+    margin-top: 2em;
+}
+
+.project-cards .p-btn {
+    /*box model*/
+    margin-top: 1em;
+    padding: 1em;
+    /*typography*/
+    text-align: center;
+    /*msc*/
+    border: 1px solid hsl(0, 0%, 85%);
+}
+
+.project-cards .p-btn a {
+    text-decoration: none;
+}
+
 @media (min-width: 1180px) {
-    .css-cards, .skill-cards {
+    .css-cards, .skill-cards, .project-cards {
         flex-direction: row;
     }
 
@@ -36,6 +63,10 @@
     }
 
     .skill-cards > * + * {
+        margin: 0 0 0 1.5em;
+    }
+
+    .project-cards > * + * {
         margin: 0 0 0 1.5em;
     }
 }
