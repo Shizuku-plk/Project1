@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .page-1 {
@@ -15,7 +16,6 @@ html {
     /*positioning*/
     min-height: 50vh;
     /*typography*/
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     /*msc*/
 }
@@ -71,8 +71,6 @@ html {
     place-content: center;
     /*positioning*/
     min-height: 50vh;
-    /*typography*/
-    font-family: 'Montserrat', sans-serif;
 }
 
 .page-3, .page-4 {

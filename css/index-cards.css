@@ -1,4 +1,4 @@
-.css-cards, .skill-cards, .projects-cards {
+.css-cards, .skill-cards, .project-cards {
     /*display*/
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@
 .css-cards i, .skill-cards i {
     /*typography*/
     font-size: 5rem;
-    color: hsl(0, 0%, 90%);
+    color: hsl(0, 0%, 80%);
 }
 
 .css-cards > * + * {
@@ -37,6 +37,11 @@
 
 .page-4 .project-cards {
     margin-top: 2em;
+}
+
+.project-cards i {
+    /*typography*/
+    color: hsl(0, 0%, 80%);
 }
 
 .project-cards .p-btn {

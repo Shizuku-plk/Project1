@@ -75,3 +75,31 @@
     font-size: 2em;
     font-weight: bold;
 }
+
+footer {
+    /*display*/
+    display: grid;
+    place-content: center;
+    /*positioning*/
+    min-height: 30vh;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    margin-top: 1em;
+}
+
+.footer-icons {
+    /*display*/
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.footer-icons a {
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
